@@ -1,0 +1,81 @@
+.app__herosection {
+
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #fff;
+}
+
+.app__herosection-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--text-color);
+    font-size: 18px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.app__herosection__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    img {
+        width: 250px;
+    }
+
+    .app__herosection-content {
+        line-height: 25px;
+
+        /* pushes the image */
+        margin-right: 20px;
+
+        h1 {
+            font-size: 30px;
+        }
+
+        p:nth-child(1) {
+            span {
+                color: var(--text-color);
+            }
+        }
+
+        p {
+            color: rgb(201, 195, 195);
+            font-size: 18px;
+        }
+    }
+}
+
+.dev {
+    color: #576EE0;
+}
+
+.app__herosection-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    background: var(--text-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    &:hover {
+        background: hsl(230, 83%, 38%);
+    }
+}
+
+
+.app__send {
+    font-size: 20px;
+}
