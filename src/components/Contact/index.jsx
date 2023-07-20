@@ -1,9 +1,9 @@
-import "./Footer.scss";
+import "./Contact.scss"
 
 export default function index() {
     return (
         <div>
-            Footer component
+            Contact me Component
         </div>
     )
 }

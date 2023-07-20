@@ -1,9 +1,9 @@
-import "./Footer.scss";
+import "./Qualifications.scss";
 
 export default function index() {
     return (
         <div>
-            Footer component
+            Qualification Component
         </div>
     )
 }

@@ -1,3 +1,9 @@
-div {
-  color: tomato;
+.app {
+  width: 50%;
+  border: 1px solid red;
+  margin: auto;
+}
+
+body {
+  background: hsl(229, 89%, 11%);
 }

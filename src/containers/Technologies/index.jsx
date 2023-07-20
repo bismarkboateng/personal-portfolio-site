@@ -1,9 +1,10 @@
-import "./Footer.scss";
+import "./Skills.scss";
+
 
 export default function index() {
     return (
         <div>
-            Footer component
+            Technologies component
         </div>
     )
 }

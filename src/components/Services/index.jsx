@@ -1,9 +1,9 @@
-import "./Footer.scss";
+import "./Services.scss"
 
 export default function index() {
     return (
         <div>
-            Footer component
+            Services Component
         </div>
     )
 }

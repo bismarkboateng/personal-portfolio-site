@@ -1,10 +1,9 @@
-import "./Skills.scss";
-
+import "./Projects.scss"
 
 export default function index() {
     return (
         <div>
-            Skills component
+            Project Component
         </div>
     )
 }

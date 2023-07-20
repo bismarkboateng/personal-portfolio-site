@@ -1,0 +1,40 @@
+.app__nav {
+    color: #fff;
+    font-family: Roboto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    h3 {
+        font-size: 15px;
+        cursor: pointer;
+
+        &:hover {
+            color: var(--text-color);
+        }
+
+    }
+
+    .app__nav-links {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        text-decoration: none;
+        color: #fff;
+        gap: 30px;
+        font-size: 15px;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        
+            &:hover {
+                color: var(--text-color);
+            }
+        }
+    }
+}
+
+
+
