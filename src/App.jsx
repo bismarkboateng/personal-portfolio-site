@@ -1,5 +1,5 @@
-import { Footer, Navbar, HeroSection } from "./components";
-import { About, Skills, Testimonial, Work, Technologies } from "./containers";
+import { Footer, Navbar, HeroSection, Qualifications} from "./components";
+import { About, Testimonial, Work, Technologies } from "./containers";
 import "./App.css";
 
 export default function App() {
@@ -9,8 +9,7 @@ export default function App() {
      <HeroSection />
      <About />
      <Technologies />
-     <Skills />
-     <Testimonial />
+     <Qualifications />
      <Work />
      <Footer />
 

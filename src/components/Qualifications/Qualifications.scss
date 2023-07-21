@@ -1,0 +1,53 @@
+.app__qualifications {
+    margin-top: 50px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        color: var(--small-color);
+    }
+
+}
+
+.app__title {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.app__qualifications-school {
+
+    div {
+        line-height: 25px;
+
+
+        div {
+            margin-bottom: 10px;
+            border: 1px solid var(--small-color);
+            padding: 10px 35px;
+            border-radius: 5px;
+            transition: all 0.4s ease;
+
+            &:hover {
+                background: var(--small-color);
+                color: #fff;
+            }
+        }
+    }
+}
+
+.app__qualification_container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.app__qualification-education {
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: var(--small-color);
+}
