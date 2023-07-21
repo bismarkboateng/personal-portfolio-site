@@ -4,7 +4,7 @@ export default [
         text: "Years of experience"
     },
     {
-        num: "03+",
+        num: "02+",
         text: "Completed Projects"
     }
 ]
