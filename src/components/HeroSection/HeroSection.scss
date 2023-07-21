@@ -89,6 +89,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+
+        img {
+            width: 300px;
+        }
     }
 
     .app__herosection {
@@ -100,6 +105,12 @@
 
     .app__herosection-btn {
         margin-bottom: 30px;
+    }
+
+    .app__herosection-content {
+        h1 {
+            line-height: 35px;
+        }
     }
 }
 
