@@ -3,7 +3,7 @@ import "./Projects.scss"
 
 export default function index() {
     return (
-        <section className="app__projects">
+        <section className="app__projects" id="Projects">
             <h1 className="app__projects-title">Projects</h1>
             <span className="sampe__project">Sample Works</span>
 

@@ -20,7 +20,7 @@ const Parts = () => {
 
 export default function index() {
     return (
-        <section className="app__about">
+        <section className="app__about" id="About">
             <h1 className="app__about-title">About Me</h1>
             <span>Get to know me</span>
 
