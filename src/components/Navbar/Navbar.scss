@@ -37,4 +37,15 @@
 }
 
 
+@media screen and (max-width: 500px) {
+    .app__nav {
+        display: none;
+    }
+}
 
+
+@media screen and (max-width: 900px) {
+    .app__nav {
+        display: none;
+    }
+}

@@ -13,12 +13,14 @@ export default function index() {
                         <img className="app__project-img" src={item.image} alt="portfolio project" />
                         <p>{ item.description } </p>
                         <div className="app__project-btns">
-                            <button className="demo">
+                            {/* <button className="demo">
                                 Demo
-                            </button>
-                            <button className="code">
-                                Code
-                            </button>
+                            </button> */}
+                            <a href={item.link} target="_blank">
+                                <button className="code">
+                                    Code
+                                </button>
+                            </a>
                         </div>
                     </div>
                 )) }

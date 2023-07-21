@@ -88,3 +88,34 @@
 .app__footer-copyright {
     color: #BABCC4;
 }
+
+
+@media screen and (max-width: 500px) {
+    .app__footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app__footer-contacts {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: flex-start;
+    }
+
+    .app__footer-links {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 10px;
+
+        li {
+            text-align: center;
+        }
+    }
+
+}

@@ -13,7 +13,7 @@ export default function index() {
             <section className="app__herosection__wrapper">
                 <section className="app__herosection-content">
                     <h1>Hola 👋, I'm Bismark </h1>
-                    <p>Software <span className="dev">Developer</span></p>
+                    <p>Software <span className="dev">Engineer</span></p>
                     <p>
                         With over a year experience in writing  <span className="dev">programs</span>, <br />
                         Converting your ideas to reality is at my <span className="dev">fingertips</span> <br /> 
@@ -21,9 +21,11 @@ export default function index() {
                         want to take your <span className="dev">brand</span> to the next level ?
                     </p>
 
-                    <button className="app__herosection-btn">
-                        Hire me  <BiSend className="app__send"/>
-                    </button>
+                    <a href="https://wa.me/233553597847" target="_blank" style={{ textDecoration: "none"}}>
+                        <button className="app__herosection-btn">
+                            Hire me  <BiSend className="app__send"/>
+                        </button>
+                    </a>
                 </section>
 
                 <img className="app__herosection-img" src={Profile} alt="bismark" />

@@ -1,5 +1,5 @@
 import "./About.scss";
-import { Profile } from "../../assets"
+import { AboutMeProfile } from "../../assets"
 import Data from "./Data";
 
 
@@ -25,7 +25,7 @@ export default function index() {
             <span>Get to know me</span>
 
             <section className="app__about_wrapper">
-                <img src={Profile} alt="art profile" className="profile-image"/>
+                <img src={AboutMeProfile} alt="art profile" className="profile-image"/>
                 <section className="app__about-content">
                     <p>
                      With a proven track record of more than a year in software development, <br />
@@ -38,16 +38,13 @@ export default function index() {
                      ensure a seamless and successful development journey. My commitment <br />
                      to delivering exceptional results and unwavering dedication to quality <br />
                      guarantees a gratifying experience for you and your stakeholders.<br />
-                        <br />
-                     Let's collaborate and witness the fusion of technical prowess and <br />
-                     strategic thinking that will elevate your project to new heights of excellence. <br />
-                     Together, we will achieve your objectives and establish a strong <br />
-                     connection with your target audience.<br />
                     </p>
 
-                    <button className="app__about-cv">
-                        Download CV
-                    </button>
+                    <a href="https://github.com/bismarkboateng" target="_blank">
+                        <button className="app__about-cv">
+                            View github
+                        </button>
+                    </a>
                 </section>
             </section>
             <Parts />
