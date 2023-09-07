@@ -9,3 +9,15 @@ body {
     --text-color: hsl(230, 82%, 56%);
     --small-color: #576EE0;
 }
+
+.animate {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  
+  .animate.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

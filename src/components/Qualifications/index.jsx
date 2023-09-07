@@ -7,7 +7,7 @@ import { BiCalendar } from "react-icons/bi";
 
 export default function index() {
     return (
-        <section className="app__qualifications">
+        <section className="app__qualifications" data-aos="zoom-in-up">
             <h1 className="app__title">Qualification</h1>
             <span>Why you should hire me</span>
 

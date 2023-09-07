@@ -24,7 +24,7 @@ const Links = [
 
 export default function index() {
     return (
-        <section className="app__herosection" id="Home">
+        <section className="app__herosection" id="Home" data-aos="fade-right">
             <section className="app__herosection__wrapper">
                 <section className="app__herosection-content">
                     <h1>Hola 👋, I'm Bismark </h1>

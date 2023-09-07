@@ -4,6 +4,7 @@ import { FaServer } from "react-icons/fa";
 import { FESkills, BESkills } from "./Skill";
 
 
+
 const Div = () => {
     return (
         <div className="div__underline"/>
@@ -11,13 +12,14 @@ const Div = () => {
 }
 
 export default function index() {
+
     return (
         <section className="app__technologies">
             <h1 className="app__technology">Technologies</h1>
             <span>Expert proficiency</span>
 
             <section className="app__frontend__backend__wrapper">
-                <section className="app__frontend">
+                <section className="app__frontend" data-aos="fade-left">
                     <h1> <TbCodeAsterix className="fe__icon"/> Frontend development</h1>
                     {
                         FESkills.map((item) => (
@@ -29,7 +31,7 @@ export default function index() {
                     }   
                 </section>
 
-                <section className="app__backend">
+                <section className="app__backend" data-aos="fade-right">
                     <h1> <FaServer className="be__icon" /> Backend development</h1>
                     {
                         BESkills.map((item) =>(
