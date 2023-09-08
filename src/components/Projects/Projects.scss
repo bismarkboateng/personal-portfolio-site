@@ -35,7 +35,9 @@
 
     p {
         font-size: 16px;
-        color: var(--text-color);
+        // color: var(--text-color);
+        font-family: 'Times New Roman', Times, serif;
+        color: #fff;
     }
 }
 
@@ -51,7 +53,7 @@
 .code {
     border: none;
     outline: none;
-    padding: 14px 40px;
+    padding: 10px 30px;
     background: var(--text-color);
     margin-right: 10px;
     color: #fff;
@@ -74,6 +76,10 @@
     object-fit: contain;
 }
 
+.app__project-btns {
+    display: flex;
+    flex-direction: row;
+}
 
 @media screen and (max-width: 500px) {
     .app__project-content {

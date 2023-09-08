@@ -23,6 +23,12 @@ export default function index() {
                                         Code
                                     </button>
                                 </a>
+                                <a href={item.liveLink} target="_blank">
+                                    <button className="code">
+                                        Live
+                                    </button>
+                                </a>
+
                             </div>
                         </div>
                     )) }
